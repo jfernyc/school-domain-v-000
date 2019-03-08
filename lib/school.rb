@@ -23,7 +23,7 @@ class School
    end 
      
    def sort
-     @roster do { |grade, students| students.sort! }
+     @roster { |grade, students| students.sort! }
       
      
      
